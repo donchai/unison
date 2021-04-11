@@ -41,11 +41,11 @@ This shell script was written to facilitate unison scripted installation (after 
 
 2.2 Login to source machine and execute following command:
    
-   sudo source <(curl -s https://raw.githubusercontent.com/donchai/unison/main/unisoncentos.sh) userid destinationmachineaddress destinationmachineprivatekey sourcepublickey synchfolder
+   source <(curl -s https://raw.githubusercontent.com/donchai/unison/main/unisoncentos.sh) userid destinationmachineaddress destinationmachineprivatekey sourcepublickey synchfolder
    
    example:
     
-    sudo source <(curl -s https://raw.githubusercontent.com/donchai/unison/main/unisoncentos.sh) azureuser azureuservm.southeastasia.cloudapp.azure.com ~/.ssh/destinationkey.pem ~/.ssh/sourcekey.pub var/www/html
+    source <(curl -s https://raw.githubusercontent.com/donchai/unison/main/unisoncentos.sh) azureuser azureuservm.southeastasia.cloudapp.azure.com ~/.ssh/destinationkey.pem ~/.ssh/sourcekey.pub var/www/html
    
    explanation:
    
