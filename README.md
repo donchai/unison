@@ -7,22 +7,36 @@ This shell script was written to facilitate unison scripted installation (after 
 
 ## 1. System Configuration Applied and Tested
 1.1 Two CentOS 8.2 Virtual Machines (source and destination for files synchronisation with same userid e.g. azureuser) deployed on Azure Cloud in Southeast Asia 
+
 1.2 Configure timezone to Singapore
+
 1.3 Make 16GB Swap Space and automount after system reboot
+
 1.4 Perform system up-to-date update via yum
+
 1.5 Perform php, git, unison libraries and make installation
+
 1.6 Download Unison 2.52.2
+
 1.7 Uncompress Unison 2.52.2
+
 1.8 Make (e.g. compile) Unison
+
 1.9 Generate key pair (public and private keys) for source and destination machines secure communication
+
 1.10 Copy source public key to destination machine
+
 1.11 Prepare Unison default configuration file (for synchronisation)
+
 1.12 Copy Unison default configuration file to root user profile
+
 1.13 Add new cronjob task for root user
+
 1.14 Check synchronisation status by tailing Unison log file
 
 ## 2. Prerequisite
 2.1 Two CentOS server or virtual machine (source machine has destination machine authorized_keys aka private key for connection)
+
 2.2 Download unisoncentos.sh into source machine and execute following command:
     unisoncentos.sh user destinationmachineaddress destinationmachineprivatekey sourcepublickey
     example:
