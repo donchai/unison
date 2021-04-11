@@ -63,7 +63,7 @@ Changes made on source and/or destination machines for files and/or folders in s
 
 Last cronjob ran Apr 11, 15:57 (unisoncron.log - cronjob runs every minute to pick up changes)
 
-Last unison synchronisation completed Apr 11, 11:54 and 12:05 (unison.log - new credit.html file created 11:54 on destination machine synchronised/copied to source machine and later deleted 12:05 on source machine - both changes sychronised successfully)
+Last unison synchronisation completed Apr 11, 11:54 and 12:05 (unison.log - new credit.html file created at 11:54 on destination machine synchronised/copied to source machine and later deleted at 12:05 on source machine - both changes sychronised successfully)
 
 # Reference 
 
