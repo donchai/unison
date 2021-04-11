@@ -38,8 +38,11 @@ This shell script was written to facilitate unison scripted installation (after 
 2.1 Two CentOS server or virtual machine (source machine has destination machine authorized_keys aka private key for connection)
 
 2.2 Download unisoncentos.sh into source machine and execute following command:
+
     unisoncentos.sh user destinationmachineaddress destinationmachineprivatekey sourcepublickey
+
     example:
+    
     unisoncentos.sh azureuser azureuservm.southeastasia.cloudapp.azure.com ~/.ssh/destinationkey.pem ~/.ssh/sourcekey.pub
     
 # Reference 
