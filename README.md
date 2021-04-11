@@ -37,7 +37,7 @@ This shell script was written to facilitate unison scripted installation (after 
 1.15 Check synchronisation status by tailing Unison log file
 
 ## 2. Prerequisite and Execution
-2.1 Two CentOS server or virtual machine (source machine has destination machine private key for secure connection by authenticate with destination machine public key in authorized_keys)
+2.1 Two CentOS servers or virtual machines (source machine has destination machine private key for secure connection by authenticate with destination machine public key in authorized_keys)
 
 2.2 Login to source machine and execute following command:
    
