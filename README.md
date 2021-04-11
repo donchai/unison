@@ -16,11 +16,11 @@ This shell script was written to facilitate unison scripted installation (after 
 
 1.5 Perform php, git, unison libraries and make installation
 
-1.6 Download Unison 2.52.2
+1.6 Download Unison version 2.52.2
 
-1.7 Uncompress Unison 2.52.2
+1.7 Uncompress Unison version 2.52.2
 
-1.8 Make (e.g. compile) Unison
+1.8 Make (e.g. compile) Unison executable
 
 1.9 Generate key pair (public and private keys) for source and destination machines secure communication
 
@@ -39,9 +39,9 @@ This shell script was written to facilitate unison scripted installation (after 
 
 2.2 Download unisoncentos.sh into source machine and execute following command:
 
-    sudo ./unisoncentos.sh user destinationmachineaddress destinationmachineprivatekey sourcepublickey synchfolder
-
-    example:
+   sudo ./unisoncentos.sh user destinationmachineaddress destinationmachineprivatekey sourcepublickey synchfolder
+   
+   example:
     
     sudo ./unisoncentos.sh azureuser azureuservm.southeastasia.cloudapp.azure.com ~/.ssh/destinationkey.pem ~/.ssh/sourcekey.pub var/www/html
     
