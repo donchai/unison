@@ -49,7 +49,7 @@ This shell script was written to facilitate unison scripted installation (after 
    
    explanation:
    
-   execute unisoncentos shell script by providing input five parameters to be used in scripted instruction
+   execute unisoncentos shell script by providing five input parameters to be used in scripted instruction
    1. userid (e.g. azureuser) use at source and target machine for file synchronisation
    2. destinationmachineaddress (e.g. azureuservm.southeastasia.cloudapp.azure.com) use to communicate for file synchronisation
    3. destinationmachineprivatekey (e.g. ~/.ssh/destinationkey.pem) use to establish secure communication handsake with target machine public key
@@ -61,7 +61,7 @@ Both changes either made on source and/or destination machines on files and/or f
 
 # Reference 
 
-In Use
+### In Use
 
 https://github.com/bcpierce00/unison
 
@@ -73,11 +73,11 @@ https://www.netweaver.uk/create-swap-file-centos-7/
 
 https://unix.stackexchange.com/questions/21297/how-do-i-add-an-entry-to-my-crontab (answer from Kusalananda)
 
-Not In Use (experimental)
+### Not In Use (experimental)
 
 https://www.programmersought.com/article/18972227299/
 
-Additional Cross Reference
+### Additional Cross Reference
 
 https://unix.stackexchange.com/questions/77277/how-to-append-multiple-lines-to-a-file
 
