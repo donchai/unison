@@ -6,7 +6,7 @@ This shell script was written to facilitate unison scripted installation (after 
 # How To Use 
 
 ## 1. System Configuration Applied and Tested
-1.1 Two CentOS 8.2 Virtual Machines (source and destination i.e. SVM and DVM) deployed on Azure Cloud in Southeast Asia 
+1.1 Two CentOS 8.2 Virtual Machines (source and destination for files synchronisation with same userid e.g. azureuser) deployed on Azure Cloud in Southeast Asia 
 1.2 Configure timezone to Singapore
 1.3 Make 16GB Swap Space and automount after system reboot
 1.4 Perform system up-to-date update via yum
@@ -24,7 +24,10 @@ This shell script was written to facilitate unison scripted installation (after 
 ## 2. Prerequisite
 2.1 Two CentOS server or virtual machine (source machine has destination machine authorized_keys aka private key for connection)
 2.2 Download unisoncentos.sh into source machine and execute following command:
-
+    unisoncentos.sh user destinationmachineaddress destinationmachineprivatekey sourcepublickey
+    example:
+    unisoncentos.sh azureuser azureuservm.southeastasia.cloudapp.azure.com ~/.ssh/destinationkey.pem ~/.ssh/sourcekey.pub
+    
 # Reference 
 
 In Use
