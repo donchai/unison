@@ -49,7 +49,7 @@ This shell script was written to facilitate unison scripted installation (after 
    
    explanation:
    
-   execute unisoncentos shell script by providing five input parameters to be used in scripted instruction
+   execute unisoncentos shell script by providing five input parameters to be used during scripted execution
    1. userid (e.g. azureuser) use at source and target machine for file synchronisation
    2. destinationmachineaddress (e.g. azureuservm.southeastasia.cloudapp.azure.com) use to communicate for file synchronisation
    3. destinationmachineprivatekey (e.g. ~/.ssh/destinationkey.pem) use to establish secure communication handsake with target machine public key
