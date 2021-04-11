@@ -61,6 +61,9 @@ Changes made on source and/or destination machines for files and/or folders in s
 
 ![image](https://user-images.githubusercontent.com/6828772/114296417-e4ae2500-9add-11eb-8723-3c08b3a1f32c.png)
 
+Last cronjob ran Apr 11, 15:57 (unisoncron.log - cronjob runs every minute to pick up changes)
+Last unison synchronisation completed Apr 11, 12:05 (unison.log - new credit.html file created on destination machine synchronised/copied to source machine)
+
 # Reference 
 
 ### In Use
