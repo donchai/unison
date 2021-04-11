@@ -6,7 +6,7 @@ This shell script was written to facilitate unison scripted installation (after 
 # How To Use 
 
 ## 1. System Configuration Applied and Tested
-1.1 Two CentOS 8.2 Virtual Machines (source and destination for files synchronisation with same userid e.g. azureuser) deployed on Azure Cloud in Southeast Asia 
+1.1 Two CentOS 8.2 Virtual Machines (source and destination for files synchronisation with same userid e.g. azureuser using key authentication) deployed on Azure Cloud in Southeast Asia 
 
 1.2 Configure timezone to Singapore
 
