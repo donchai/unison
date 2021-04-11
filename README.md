@@ -59,6 +59,8 @@ This shell script was written to facilitate unison scripted installation (after 
 ## 3. Synchronisation In Action
 Changes made on source and/or destination machines for files and/or folders in specified synchronisation folder e.g. /var/www/html will be synchronised every 1 minute at both ways. Latest changes will be syncrhonised between two machines based on the configuration parameters. You may further fine-tune the <a href="https://geekdudes.wordpress.com/2020/05/05/installing-unison-on-centos-8/">configuration parameters in default.prf file</a> to handle synchronisation conflict resolution and et cetera.
 
+![image](https://user-images.githubusercontent.com/6828772/114296417-e4ae2500-9add-11eb-8723-3c08b3a1f32c.png)
+
 # Reference 
 
 ### In Use
