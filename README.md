@@ -3,6 +3,11 @@ Unison, a linux/windows program written-lead designed by Professor <a href="http
 
 This shell script was written to facilitate unison scripted installation (after realising there are gaps to address virtual machine is ready for unison installation e.g. linraries and machine tuning) under a pair of newly deployed Azure Virtual Machines <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/endorsed-distros#supported-distributions-and-versions">CentOS 8.2 distribution</a> at the time of writing this readme.
 
+# How To Use 
+## Prerequisite
+
+Download unisoncentos.sh into source machine and execute following command:
+
 # Reference 
 
 In Use
