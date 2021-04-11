@@ -5,7 +5,7 @@ This shell script was written to facilitate unison scripted installation (after 
 
 # Reference 
 
-In use
+In Use
 
 https://www.seas.upenn.edu/~bcpierce/unison/download/releases/
 
