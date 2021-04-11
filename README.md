@@ -13,7 +13,7 @@ https://geekdudes.wordpress.com/2020/05/05/installing-unison-on-centos-8/
 
 https://www.netweaver.uk/create-swap-file-centos-7/
 
-https://unix.stackexchange.com/questions/21297/how-do-i-add-an-entry-to-my-crontab (#9)
+https://unix.stackexchange.com/questions/21297/how-do-i-add-an-entry-to-my-crontab (answer from Kusalananda)
 
 Not In Use (experimental)
 
