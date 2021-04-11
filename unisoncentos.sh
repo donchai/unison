@@ -51,4 +51,5 @@ sudo crontab /tmp/crontab
 sudo systemctl status crond
 sudo systemctl enable crond
 sudo systemctl restart crond
+sudo rm /tmp/default.prf /tmp/crontab
 sudo tail -f /var/log/unison.log
