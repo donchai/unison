@@ -50,11 +50,11 @@ This shell script was written to facilitate unison scripted installation (after 
    explanation:
    
    execute unisoncentos shell script by providing five input parameters to be used during scripted execution
-   1. userid (e.g. azureuser) use at source and target machine for file synchronisation
-   2. destinationmachineaddress (e.g. azureuservm.southeastasia.cloudapp.azure.com) use to communicate for file synchronisation
-   3. destinationmachineprivatekey (e.g. ~/.ssh/destinationkey.pem) use to establish secure communication handsake with target machine public key
-   4. sourcepublickey (e.g. ~/.ssh/sourcekey.pub) public key file location at source machine to be copied to destination machine
-   5. synchfolder (e.g. var/www/html) absolute path at source machine without prefix forward slash i.e. /var/www/html = var/www/html
+   2.2.1 userid (e.g. azureuser) use at source and target machine for file synchronisation
+   2.2.2 destinationmachineaddress (e.g. azureuservm.southeastasia.cloudapp.azure.com) use to communicate for file synchronisation
+   2.2.3. destinationmachineprivatekey (e.g. ~/.ssh/destinationkey.pem) use to establish secure communication handsake with target machine public key
+   2.2.4 sourcepublickey (e.g. ~/.ssh/sourcekey.pub) public key file location at source machine to be copied to destination machine
+   2.2.5 synchfolder (e.g. var/www/html) absolute path at source machine without prefix forward slash i.e. /var/www/html = var/www/html
 
 ## 3. Synchronisation In Action
 Changes made on source and/or destination machines for files and/or folders in specified synchronisation folder e.g. /var/www/html will be synchronised every 1 minute at both ways. Latest changes will be syncrhonised between two machines based on the configuration parameters. You may further fine-tune the <a href="https://geekdudes.wordpress.com/2020/05/05/installing-unison-on-centos-8/">configuration parameters in default.prf file</a> to handle synchronisation conflict resolution and et cetera.
