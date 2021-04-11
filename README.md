@@ -32,12 +32,14 @@ This shell script was written to facilitate unison scripted installation (after 
 
 1.13 Add new cronjob task for root user
 
-1.14 Check synchronisation status by tailing Unison log file
+1.14 Remove temporary files
+
+1.15 Check synchronisation status by tailing Unison log file
 
 ## 2. Prerequisite
 2.1 Two CentOS server or virtual machine (source machine has destination machine authorized_keys aka private key for connection)
 
-2.2 Download unisoncentos.sh into source machine and execute following command:
+2.2 Download <a href="https://raw.githubusercontent.com/donchai/unison/main/unisoncentos.sh">unisoncentos.sh</a> into source machine and execute following command:
 
    sudo ./unisoncentos.sh user destinationmachineaddress destinationmachineprivatekey sourcepublickey synchfolder
    
