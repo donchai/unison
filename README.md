@@ -16,9 +16,9 @@ This shell script was written to facilitate unison scripted installation (after 
 
 1.5 Perform php, git, unison libraries and make installation
 
-1.6 Download Unison version 2.52.2
+1.6 Download Unison version 2.51.2
 
-1.7 Uncompress Unison version 2.52.2
+1.7 Uncompress Unison version 2.51.2
 
 1.8 Make (e.g. compile) Unison executable
 
