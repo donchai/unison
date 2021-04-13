@@ -95,3 +95,8 @@ https://unix.stackexchange.com/questions/77277/how-to-append-multiple-lines-to-a
 https://stackoverflow.com/questions/2936627/two-way-sync-with-rsync
 
 https://www.liquidweb.com/kb/install-rsync-and-lsync-on-centos-fedora-or-red-hat/
+
+# Buy me a coffee
+![buymeacoffee_donchai](https://www.buymeacoffee.com/donchai)
+
+
